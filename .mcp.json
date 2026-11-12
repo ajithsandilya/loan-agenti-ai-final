@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "applicant-db": {
+      "type": "http",
+      "url": "http://localhost:8001/mcp"
+    },
+    "risk-rules-db": {
+      "type": "http",
+      "url": "http://localhost:8002/mcp"
+    },
+    "decision-synthesis": {
+      "type": "http",
+      "url": "http://localhost:8003/mcp"
+    },
+    "notification-system": {
+      "type": "http",
+      "url": "http://localhost:8004/mcp"
+    }
+  }
+}
